@@ -26,11 +26,10 @@
     </form>
     Rezultatas: daugyba <?php echo $x*$y; ?>
     sudėtis <?=$x+$y; ?>
-<a href="pirmas.php?x=8"
+<a href="pirmas.php?x=8"></a>
    <form>
        <input type="text" name="x">
        <input type="submit" name="Skaičiuoti">
-
    </form>
 </body>
 </html>
