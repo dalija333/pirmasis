@@ -11,7 +11,7 @@
 <body>
     <?php
         $x=$_GET['x'];
-        $y=10;
+        $y=$_GET['y'];
     ?>
 
     <form>
@@ -24,12 +24,13 @@
             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
         </div>
     </form>
-    Rezultatas: daugyba <?php echo $x*$y; ?>
-    sudėtis <?=$x+$y; ?>
-<a href="pirmas.php?x=8"></a>
+        Rezultatas: daugyba <?php echo $x*$y; ?>
+
+        <a href="pirmas.php?"></a>
    <form>
-       <input type="text" name="x">
-       <input type="submit" name="Skaičiuoti">
+       <label class="p-2" for="formGroupExampleInput">x= </label><input type="text" name="x"><br>
+       <label class="p-2" for="formGroupExampleInput">y= </label><input type="text" name="y"><br>
+       <input class="m-2 btn btn-success" type="submit" value="Skaičiuoti">
    </form>
 </body>
 </html>
